@@ -1,0 +1,48 @@
+.btn {
+    margin-top: 5px;
+    border: 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    font-family: inherit;
+    background-color: inherit;
+    border-radius: 0;
+    transition: all 0.5s;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(33 37 41 / 25%);
+}
+
+.dropdown-item {
+    font-weight: 500;
+    font-family: inherit;
+}
+
+@media (max-width: 992px) {
+    .dropdown .btn {
+        padding: 15px 0px;
+        color: #1e1e1e !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn.focus,
+    .btn:focus {
+        box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 25%);
+    }
+
+    .dropdown-menu {
+        background-color: #1e1e1e;
+        border-radius: 0;
+        width: 100%;
+        background-clip: unset;
+    }
+
+    .dropdown-item {
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+    }
+}

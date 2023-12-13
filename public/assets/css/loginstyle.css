@@ -1,0 +1,170 @@
+.login-page,
+.register-page,
+.jualbarang-page {
+    margin: 0;
+    color: #edf3ff;
+    background: #c8c8c8;
+    background-image: url("/assets/images/cover.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+}
+
+:after,
+:before {
+    box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+.login-wrap {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    top: 100px;
+    max-width: 510px;
+    min-height: 510px;
+    position: relative;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    background-color: #232323;
+}
+
+.register-wrap {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    top: 100px;
+    max-width: 510px;
+    min-height: 850px;
+    position: relative;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    background-color: #232323;
+}
+
+.jualbarang-wrap {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    top: 100px;
+    max-width: 510px;
+    min-height: 1020px;
+    position: relative;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    background-color: #232323;
+}
+
+.login-html,
+.register-html,
+.jualbarang-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: #f33f3f(255, 255, 255, 0.493);
+}
+
+.login-html .sign-in,
+.login-form .group .check,
+.register-html .sign-up,
+.register-form .group .check,
+.jualbarang-html .jual,
+.jualbarang-form .group .check {
+    display: none;
+}
+
+.login-form .group .label,
+.login-form .group .button,
+.register-form .group .label,
+.register-form .group .button,
+.jualbarang-form .group .label,
+.jualbarang-form .group .button {
+    text-transform: uppercase;
+}
+
+.jualbarang-form .group #alamat,
+.jualbarang-form .group #deskripsibarang {
+    border-radius: 3px;
+    padding: 10px 10px;
+    text-align: justify;
+    width: 100%;
+    height: 100px;
+}
+
+.jualbarang-form .group #jenisbarang {
+    border-radius: 3px;
+}
+
+.jualbarang-form .group #jenisbarang option {
+    background-attachment: rgba(255, 255, 255, 0.603);
+    color: black;
+}
+
+.login-form .group,
+.register-form .group,
+.jualbarang-form .group {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button,
+.register-form .group .label,
+.register-form .group .input,
+.register-form .group .button,
+.jualbarang-form .group .label,
+.jualbarang-form .group .input,
+.jualbarang-form .group .button {
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.login-form .group .input,
+.login-form .group .button,
+.register-form .group .input,
+.register-form .group .button,
+.jualbarang-form .group .input,
+.jualbarang-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.459);
+}
+
+.login-form .group .label,
+.register-form .group .label,
+.jualbarang-form .group .label {
+    color: rgb(233, 233, 233);
+    font-size: 12px;
+}
+
+.login-form .group .button,
+.register-form .group .button,
+.jualbarang-form .group .button {
+    background: #fd3535;
+}
+
+.pesan {
+    font-size: small;
+    color: yellow;
+    padding-top: 10px;
+}
+
+.foot-lnk {
+    text-align: center;
+}
